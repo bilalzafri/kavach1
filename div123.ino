@@ -15,6 +15,7 @@ SoftwareSerial BTSerial(10, 11);
 #define cRecord   (2)
 #define dRecord   (3)
 #define eRecord   (4)
+// This is simmy making few changes in printSignature to improve accuracy
 
 void printSignature(uint8_t *buf, int len)
 {
