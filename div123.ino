@@ -1,5 +1,6 @@
 #include <SoftwareSerial.h>
 #include "VoiceRecognitionV3.h"
+//this is bilal making few changes in varible assigment
 
 VR myVR(2,3);    // 2:RX 3:TX, you can choose your favourite pins.
 uint8_t records[7]; // save record
